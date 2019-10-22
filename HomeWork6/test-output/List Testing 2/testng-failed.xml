@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [List Testing 2]">
+  <test thread-count="5" name="Good List(failed)">
+    <parameter name="listType" value="goodList"/>
+    <classes>
+      <class name="Test_2_addToFrontA_A">
+        <methods>
+          <include name="testGet_validIndex" invocation-numbers="1"/>
+          <include name="testIndexOf" invocation-numbers="1"/>
+          <include name="testRemove_validIndex" invocation-numbers="1"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_2_addToFrontA_A -->
+    </classes>
+  </test> <!-- Good List(failed) -->
+</suite> <!-- Failed suite [List Testing 2] -->
